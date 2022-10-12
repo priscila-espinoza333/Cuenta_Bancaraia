@@ -1,3 +1,4 @@
+from BancoDojo import BancoDojo
 class BancoDojo:
 
     ctas_bancarias = []
@@ -39,7 +40,7 @@ class BancoDojo:
     @classmethod
     def total_ctas(cls):
         print("Total clientes:", len(cls.ctas_bancarias))
-        for ctaBancaria in cls.ctas_bancarias:
+        for BancoDojo in cls.ctas_bancarias:
             print(f"Nombre Cliente {nombre_completo}")
             print(f"Id Cuenta {id_cuenta}")
             print(f"Balance {balance}")
